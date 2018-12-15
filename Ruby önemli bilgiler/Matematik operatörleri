@@ -1,8 +1,10 @@
-Ruby'deki matematik operatörleri şu şekildedir ;
-+ = Toplama                 Bkz= 3+1 = 4
-- = Çıkarma                 Bkz= 3-1 = 2
-/ = Bölme                   Bkz= 16/2 = 8
-* = Çarpma                  Bkz= 8*2 = 16
-** = Üssü                   Bkz= 2**4= 16
-Math.sqrt(...) = Karekök alma            bkz= Math.sqrt(9) = 3.00
-Not= bunları etkileşimli irb konsolundan deneyebilirsiniz.
+Ruby'de Matematik Operatörleri "Math" olarak tanımlanıyor,
++ = toplar                                  bkz= 3+4=7
+- = çıkarır                                 bkz= 4-3=1
+* = çarpar                                  bkz= 3*4=12
+/ = böler                                   bkz= 9/3= 3
+(sayı)**(verilen üs değeri) = üs verir      bkz= 2**3= 8  
+Math.sqrt(sayı) =  karekök alır             bkz= Math.sqrt(9)= 3.0
+
+
+Not = bu işlemleri Etkileşimli Irb Konsolundan deneyebilirsiniz.
