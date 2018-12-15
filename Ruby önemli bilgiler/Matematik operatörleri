@@ -4,5 +4,5 @@ Ruby'deki matematik operatörleri şu şekildedir ;
 / = Bölme                   Bkz= 16/2 = 8
 * = Çarpma                  Bkz= 8*2 = 16
 ** = Üssü                   Bkz= 2**4= 16
-
+Math.sqrt(...) = Karekök alma            bkz= Math.sqrt(9) = 3.00
 Not= bunları etkileşimli irb konsolundan deneyebilirsiniz.
