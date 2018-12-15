@@ -1,5 +1,5 @@
-Ruby'de matematik operatörleri math ,     bkz= math.sqrt(9)
-        metod tanımları ise def ile yazılır.  bkz=      def m 
+Ruby'de matematik operatörleri "Math" ,     bkz= Math.sqrt(9)
+        metod tanımları ise "def" ile yazılır.  bkz=      def m 
                                                         puts "merhaba dünya"
                                                         end          #bu şekilde bitirdik. ve ardından m ye her bastığımızda 
                                                                       merhaba dünya diyecektir.
