@@ -1,5 +1,8 @@
-Ruby'de matematik operatörleri math ,     bkz= math.sqrt(9)
-        metod tanımları ise def ile yazılır.  bkz=      def m 
-                                                        puts "merhaba dünya"
-                                                        end          #bu şekilde bitirdik. ve ardından m ye her bastığımızda 
-                                                                      merhaba dünya diyecektir.
+Ruby'deki matematik operatörleri şu şekildedir ;
++ = Toplama                 Bkz= 3+1 = 4
+- = Çıkarma                 Bkz= 3-1 = 2
+/ = Bölme                   Bkz= 16/2 = 8
+* = Çarpma                  Bkz= 8*2 = 16
+** = Üssü                   Bkz= 2**4= 16
+
+Not= bunları etkileşimli irb konsolundan deneyebilirsiniz.
