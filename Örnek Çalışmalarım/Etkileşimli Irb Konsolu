@@ -1,0 +1,59 @@
+Arkadaşlar konsola girip irb yazıyoruz ve birkaç pratik yapıyoruz,
+
+Karekök bulma,
+
+a = 75
+b = 25
+Math.sqrt(a+b)       (yazarsak a ile b yi toplayıp onun karekökünü bulacaktır.)
+=>10.0 
+
+
+----------------            -----------------           -----------------------            -------------------
+Değişken atayarak isim gösterme,
+
+def m(isim)
+puts "Merhaba #{isim}"             ( burda isim bir değişkendir bunları yazdıktan sonra                                      
+                                      m("Eren") yazarsak Merhaba eren diyecektir.)
+end
+=> m("Eren")
+Merhaba Eren 
+       
+----------------            ----------------            -----------------------            --------------------
+Büyük harfle yazma,
+
+
+def m(isim= "Dünya")
+puts "merhaba #{isim.capitalize}!"             (burdaki capitalize kodumuz ise bizim 
+                                               yazdığımız değişkeni büyük harf yapar m "eren" yazarsak
+                                               Merhaba Eren diyecek sadece m yazarsak Merhaba Dünya! diyecektir.)
+end
+m "eren"
+merhaba Eren
+m
+merhaba Dünya!
+---------------            -------------------          ------------------------            -------------------
+consolu temizlemek için , 
+exit yazıyoruz daha sonra cls yazıyoruz.
+
+selamlama,
+
+class Selamla 
+def initialize(isim = "Dünya")
+@isim = isim
+end
+def merhaba_de					( classlar birer sınıflardır ve içlerine birkaç metod yazabilmemizi sağlar
+						  initialize ise bir class atadıktan sonra hemen yazacağımız koddur.)									
+puts "Merhaba #{isim}!"
+end
+def gulegule_de
+puts "güle güle #{@isim}!"
+end
+end						(iki tane end koyduk çünkü birisi kodu bitirmek için diğeri ise class'ı 
+						 bitirmek için koyduk.)
+:gulegule_de
+s = selamla.new("Eren")
+s.merhaba_de
+Merhaba eren! 
+ 						( hiç bir şey yazmaz isek burda Merhaba dünya diyecektir çünkü ilk 
+
+						  başta dünya diye atadık.)
