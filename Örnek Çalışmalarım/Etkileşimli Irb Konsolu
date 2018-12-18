@@ -1,6 +1,6 @@
 Arkadaşlar konsola girip irb yazıyoruz ve birkaç pratik yapıyoruz,
 
-Karekök bulma,
+1-)	Karekök bulma,
 
 a = 75
 b = 25
@@ -9,7 +9,7 @@ Math.sqrt(a+b)       (yazarsak a ile b yi toplayıp onun karekökünü bulacakt�
 
 
 ----------------            -----------------           -----------------------            -------------------
-Değişken atayarak isim gösterme,
+2-)	Değişken atayarak isim gösterme,
 
 def m(isim)
 puts "Merhaba #{isim}"             ( burda isim bir değişkendir bunları yazdıktan sonra                                      
@@ -19,7 +19,7 @@ end
 Merhaba Eren 
        
 ----------------            ----------------            -----------------------            --------------------
-Büyük harfle yazma,
+3-)	Büyük harfle yazma,
 
 
 def m(isim= "Dünya")
@@ -35,7 +35,7 @@ merhaba Dünya!
 consolu temizlemek için , 
 exit yazıyoruz daha sonra cls yazıyoruz.
 
-selamlama,
+4-)	selamlama,
 
 class Selamla 
 def initialize(isim = "Dünya")
